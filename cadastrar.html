@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="cadastrar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap"
+        rel="stylesheet">
+
+    <title>SolicitaGov</title>
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logo_header">
+            <img src="img/logo-solicitagov.png" alt="logo-solicitagov">
+        </div>
+
+        <div class="pesquisa">
+            <input type="text" placeholder="Buscar licitações, órgãos, pedidos...">
+            <img src="img/search_png.png" alt="lupa">
+        </div>
+
+        <select id="local" name="local">
+            <option value="salvador">Salvador</option>
+            <option value="lauro">Lauro de Freitas</option>
+            <option value="candeias">Candeias</option>
+            <option value="madrededeus">Madre de Deus</option>
+            <option value="feira">Feira de Santana</option>
+        </select>
+
+    </header>
+
+    <main>
+
+        <div class="voltar-principal">
+            <a href="principal.html">Início / <span class="span-voltar">Meus produtos</span></a>
+        </div>
+
+        <div class="titulo">
+            <h1>Cadastrar novo produto</h1>
+        </div>
+
+        <div class="sub-titulo">
+            <h3>Preencha as informações do produto ou serviço.</h3>
+        </div>
+
+        <nav>
+            <a href="#"><span class="selecionado">Dados gerais</span></a>
+            <a href="#">Especificações</a>
+            <a href="#">Imagens</a>
+            <a href="#">Documentos</a>
+        </nav>
+
+        <div class="sobre-produto">
+            <div class="box-1">
+                <h2>Nome do produto <span>*</span></h2>
+                <div class="pesquisa-2">
+                    <input type="text" placeholder="Ex: Cadeira Executiva Giratória">
+                </div>
+            </div>
+
+            <div class="box-2">
+                <h2>Categoria <span>*</span></h2>
+                <select id="categoria" name="categoria">
+                    <option value="selecione">Selecione a categoria</option>
+                    <option value="informatica">Informática</option>
+                    <option value="mobilia">Mobília</option>
+                    <option value="escritorio">Escritório</option>
+                    <option value="segurança">Segurança</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="descricao-produto">
+            <h2>Descrição <span>*</span></h2>
+            <div class="descricao">
+                <textarea placeholder="Descreva seu produto ou serviço..."></textarea>
+            </div>
+        </div>
+
+        <div class="info-produto">
+            <div class="info1">
+                <h2>Unidade de medida <span>*</span></h2>
+                <select class="select-medida">
+                    <option value="selecione">Selecione a medida</option>
+                    <option value="unidade">Unidade</option>
+                    <option value="caixa">Caixa</option>
+                    <option value="pacote">Pacote</option>
+                    <option value="kg">Kg</option>
+                    <option value="litro">Litro</option>
+                    <option value="metro">Metro</option>
+                    <option value="metro2">Metro²</option>
+                    <option value="hora">Hora</option>
+                    <option value="mes">Mês</option>
+                    <option value="outro">Outro</option>
+                </select>
+            </div>
+
+            <div class="info2">
+                <h2>Preço unitário <span>*</span></h2>
+                <div class="entrada-info">
+                    <input type="text" placeholder="R$ 0,00">
+                </div>
+            </div>
+
+            <div class="info3">
+                <h2>Estoque disponível</h2>
+                <div class="entrada-info">
+                    <input type="text" placeholder="0">
+                </div>
+            </div>
+
+            <div class="info4">
+                <h2>Status <span>*</span></h2>
+                <select class="select-medida">
+                    <option value="status">Status</option>
+                    <option value="ativo">Ativo</option>
+                    <option value="pendente">Pendente</option>
+                    <option value="inativo">Inativo</option>
+                </select>
+            </div>
+
+            <div class="botao-cadastrar">
+                <button><span>Cadastrar produto</span></button>
+            </div>
+        </div>
+
+    </main>
+
+</body>

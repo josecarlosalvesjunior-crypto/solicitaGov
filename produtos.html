@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="produtos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap"
+        rel="stylesheet">
+
+    <title>SolicitaGov</title>
+</head>
+
+<body>
+    <header>
+
+        <div class="logo_header">
+            <img src="img/logo-solicitagov.png" alt="logo-solicitagov">
+        </div>
+
+        <div class="pesquisa">
+            <input type="text" placeholder="Buscar licitações, órgãos, pedidos...">
+            <img src="img/search_png.png" alt="lupa">
+        </div>
+
+        <select id="local" name="local">
+            <option value="salvador">Salvador</option>
+            <option value="lauro">Lauro de Freitas</option>
+            <option value="candeias">Candeias</option>
+            <option value="madrededeus">Madre de Deus</option>
+            <option value="feira">Feira de Santana</option>
+        </select>
+
+    </header>
+
+    <main>
+        <div class="voltar-principal">
+            <a href="principal.html">Início / <span class="span-voltar">Meus produtos</span></a>
+        </div>
+
+        <div class="titulo">
+            <h1>Meus produtos</h1>
+        </div>
+
+        <div class="sub-titulo">
+            <h3>Gerencie seus produtos e serviços cadastrados na plataforma.</h3>
+        </div>
+
+        <div class="periodos">
+            <div class="botao-cadastrar">
+                <button>
+                    <a href="cadastrar.html">+ Cadastrar produto</a>
+                </button>
+            </div>
+        </div>
+
+        <div class="cards">
+            <div class="card-1">
+                <h2>Total de produtos</h2>
+                <h1>120</h1>
+                <span class="normal">Ativos</span>
+            </div>
+            <div class="card-2">
+                <h2>Produtos ativos</h2>
+                <h1>98</h1>
+                <span class="normal">Disponíveis</span>
+            </div>
+            <div class="card-3">
+                <h2>Produtos inativos</h2>
+                <h1>22</h1>
+                <span class="normal">Indisponíveis</span>
+            </div>
+            <div class="card-4">
+                <h2>Visualizações (mês)</h2>
+                <h1>1.458</h1>
+                <span class="positivo">+ 12,5%</span>
+            </div>
+        </div>
+
+        <div class="filtros">
+            <div class="pesquisa-2">
+                <input type="text" placeholder="Buscar pedido...">
+                <img src="img/search_png.png" alt="lupa">
+            </div>
+
+            <select id="filtros" name="filtros">
+                <option value="categoria">Categoria</option>
+                <option value="informatica">Informática</option>
+                <option value="escritório">Escritório</option>
+                <option value="seguranca">Segurança</option>
+            </select>
+
+            <select id="filtros" name="filtros">
+                <option value="status">Status</option>
+                <option value="ativo">Ativo</option>
+                <option value="andamento">Em andamento</option>
+                <option value="encerrado">Encerrado</option>
+            </select>
+
+            <select id="filtros" name="filtros">
+                <option value="mais filtros">Mais filtros</option>
+                <option value="...">...</option>
+                <option value="...">...</option>
+                <option value="...">...</option>
+            </select>
+        </div>
+
+        <div class="tab-principal">
+
+            <table class="tabela">
+
+                <tr>
+                    <th>Produto</th>
+                    <th>Categoria</th>
+                    <th>Preço</th>
+                    <th>Estoque</th>
+                    <th>Status</th>
+                    <th>Ações</th>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="produtos">
+                            <img src="img/impressora.png" alt="impressora">
+                            <span class="normal">Impressora Multifuncional</span>
+                        </div>
+                    </td>
+                    <td><span class="normal">Informática</span></td>
+                    <td><span class="normal">R$ 1.299,00</span></td>
+                    <td><span class="normal">25 uni.</span></td>
+                    <td><span class="status-ativo">Ativo</span></td>
+                    <td>
+                        <div class="acoes">
+                            <button class="icones"><img src="img/edit.png" alt="edit"></button>
+                            <button class="icones"><img src="img/eye.png" alt="eye"></button>
+                            <button class="icones"><img src="img/mais.png" alt="mais"></button>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="produtos">
+                            <img src="img/câmera_img.png" alt="camera">
+                            <span class="normal">Câmera IP Wi-Fi Full HD</span>
+                        </div>
+                    </td>
+                    <td><span class="normal">Segurança</span></td>
+                    <td><span class="normal">R$ 299,90</span></td>
+                    <td><span class="normal">183 uni.</span></td>
+                    <td><span class="status-ativo">Ativo</span></td>
+                    <td>
+                        <div class="acoes">
+                            <button class="icones"><img src="img/edit.png" alt="edit"></button>
+                            <button class="icones"><img src="img/eye.png" alt="eye"></button>
+                            <button class="icones"><img src="img/mais.png" alt="mais"></button>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="produtos">
+                            <img src="img/papel_a4.png" alt="papel">
+                            <span class="normal">Papel Sulfite A4</span>
+                        </div>
+                    </td>
+                    <td><span class="normal">Escritório</span></td>
+                    <td><span class="normal">R$ 24,80</span></td>
+                    <td><span class="normal">212 uni.</span></td>
+                    <td><span class="status-ativo">Ativo</span></td>
+                    <td>
+                        <div class="acoes">
+                            <button class="icones"><img src="img/edit.png" alt="edit"></button>
+                            <button class="icones"><img src="img/eye.png" alt="eye"></button>
+                            <button class="icones"><img src="img/mais.png" alt="mais"></button>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="produtos">
+                            <img src="img/mesa_img.png" alt="mesa">
+                            <span class="normal">Mesa Escritório</span>
+                        </div>
+                    </td>
+                    <td><span class="normal">Mobília</span></td>
+                    <td><span class="normal">R$ 699,00</span></td>
+                    <td><span class="normal">136 uni.</span></td>
+                    <td><span class="status-ativo">Ativo</span></td>
+                    <td>
+                        <div class="acoes">
+                            <button class="icones"><img src="img/edit.png" alt="edit"></button>
+                            <button class="icones"><img src="img/eye.png" alt="eye"></button>
+                            <button class="icones"><img src="img/mais.png" alt="mais"></button>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="produtos">
+                            <img src="img/cadeira_escritorio.png" alt="cadeira">
+                            <span class="normal">Cadeira Executiva</span>
+                        </div>
+                    </td>
+                    <td><span class="normal">Mobília</span></td>
+                    <td><span class="normal">R$ 579,00</span></td>
+                    <td><span class="normal">6 uni.</span></td>
+                    <td><span class="status-inativo">Inativo</span></td>
+                    <td>
+                        <div class="acoes">
+                            <button class="icones"><img src="img/edit.png" alt="edit"></button>
+                            <button class="icones"><img src="img/eye.png" alt="eye"></button>
+                            <button class="icones"><img src="img/mais.png" alt="mais"></button>
+                        </div>
+                    </td>
+
+                </tr>
+
+            </table>
+
+        </div>
+
+        <div class="mostar-todas">
+            <span>Mostrando 5 de 120 produtos</span>
+            <button class="sentido"><</button>
+            <button class="num-pag">1</button>
+            <button class="sentido">></button>
+        </div>
+
+    </main>
+</body>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="pedidos.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+
+	<title>SolicitaGov</title>
+</head>
+
+
+<body>
+
+	<header>
+
+		<div class="logo_header">
+			<img src="img/logo-solicitagov.png" alt="logo-solicitagov">
+		</div>
+
+		<div class="pesquisa">
+			<input type="text" placeholder="Buscar licitações, órgãos, pedidos...">
+			<img src="img/search_png.png" alt="lupa">
+		</div>
+
+		<select id="local" name="local">
+			<option value="salvador">Salvador</option>
+			<option value="lauro">Lauro de Freitas</option>
+			<option value="candeias">Candeias</option>
+			<option value="madrededeus">Madre de Deus</option>
+			<option value="feira">Feira de Santana</option>
+		</select>
+
+	</header>
+
+	<main>
+
+		<div class="voltar-principal">
+			<a href="principal.html">Início / <span class="span-voltar">Pedidos</span></a>
+		</div>
+
+		<div class="titulo">
+			<h1>Pedidos</h1>
+		</div>
+
+		<div class="sub-titulo">
+			<h3>Acompanhe os pedidos recebidos pelos órgãos públicos.</h3>
+		</div>
+
+		<div class="pedidos">
+
+			<div class="barra-nav">
+				<nav class="categorias">
+					<a href="#"><span>Todos</span></a>
+					<a href="#">Em andamento</a>
+					<a href="#">Concluídos</a>
+					<a href="#">Cancelados</a>
+				</nav>
+			</div>
+
+			<div class="filtragem">
+				<div class="pesquisa-2">
+					<input type="text" placeholder="Buscar pedido...">
+					<img src="img/search_png.png" alt="lupa">
+				</div>
+
+				<select id="filtros" name="filtros">
+					<option value="mais filtros">Mais filtros</option>
+					<option value="...">...</option>
+					<option value="...">...</option>
+				</select>
+			</div>
+
+			<div class="tab-principal">
+				<table class="tabela">
+
+					<tr>
+						<td><strong>Pedido #1587</strong> <small>Prefeitura de Lauro de Freitas - BA</small></td>
+						<td><span class="normal">24/05/2026</span></td>
+						<td><span class="normal">R$ 3.450,00</span></td>
+						<td><span class="status-concluido">Concluído</span></td>
+					</tr>
+
+					<tr>
+						<td><strong>Pedido #1586</strong> <small>Câmara Municipal de Salvador - BA</small></td>
+						<td><span class="normal">22/05/2026</span></td>
+						<td><span class="normal">R$ 1.250,00</span></td>
+						<td><span class="status-andamento">Em andamento</span></td>
+					</tr>
+
+					<tr>
+						<td><strong>Pedido #1585</strong> <small>Secretaria da Educação - BA</small></td>
+						<td><span class="normal">21/05/2026</span></td>
+						<td><span class="normal">R$ 5.000,00</span></td>
+						<td><span class="status-andamento">Em andamento</span></td>
+					</tr>
+
+					<tr>
+						<td><strong>Pedido #1584</strong> <small>Prefeitura Municipal de Salvador</small></td>
+						<td><span class="normal">19/05/2026</span></td>
+						<td><span class="normal">R$ 980,00</span></td>
+						<td><span class="status-cancelado">Cancelado</span></td>
+					</tr>
+
+				</table>
+			</div>
+
+			<div class="ver-todas">
+				<span>Mostrando 4 de 15 contratos | </span>
+				<a href="#">Ver todos os contratos</a>
+			</div>
+
+		</div>
+
+	</main>
+
+</body>
+
+</html>

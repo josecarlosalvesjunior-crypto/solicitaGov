@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="relatorio.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+
+	<title>SolicitaGov</title>
+</head>
+
+
+<body>
+
+	<header>
+
+		<div class="logo_header">
+			<img src="img/logo-solicitagov.png" alt="logo-solicitagov">
+		</div>
+
+		<div class="pesquisa">
+			<input type="text" placeholder="Buscar licitações, órgãos, pedidos...">
+			<img src="img/search_png.png" alt="lupa">
+		</div>
+
+		<select id="local" name="local">
+			<option value="salvador">Salvador</option>
+			<option value="lauro">Lauro de Freitas</option>
+			<option value="candeias">Candeias</option>
+			<option value="madrededeus">Madre de Deus</option>
+			<option value="feira">Feira de Santana</option>
+		</select>
+
+	</header>
+
+	<main>
+
+		<div class="voltar-principal">
+			<a href="principal.html">Início / <span class="span-voltar">Relatórios</span></a>
+		</div>
+
+		<div class="titulo">
+			<h1>Relatórios</h1>
+		</div>
+
+		<div class="sub-titulo">
+			<h3>Visualize métricas e desempenhos do seu negócio.</h3>
+		</div>
+
+		<div class="periodos">
+			<div class="box-periodo">
+				<span>Período:</span>
+				<select id="periodo" name="periodo">
+					<option value="data1">01/05/2026 a 30/05/2026</option>
+					<option value="data2">01/06/2026 a 30/06/2026</option>
+					<option value="data3">01/07/2026 a 30/07/2026</option>
+					<option value="data4">01/08/2026 a 30/08/2026</option>
+					<option value="data5">01/09/2026 a 30/09/2026</option>
+				</select>
+			</div>
+
+			<div class="botao-exportar">
+				<button>
+					<span>Exportar</span>
+					<img src="img/exportar_img.png" alt="exportar_img">
+				</button>
+			</div>
+		</div>
+
+		<div class="cards">
+			<div class="card-1">
+				<h2>Licitações Participadas</h2>
+				<h1>120</h1>
+				<span class="normal">15,2%</span>
+			</div>
+			<div class="card-2">
+				<h2>Propostas enviadas</h2>
+				<h1>12</h1>
+				<span class="positivo">+ 8,5%</span>
+			</div>
+			<div class="card-3">
+				<h2>Contratos Firmados</h2>
+				<h1>7</h1>
+				<span class="positivo">+ 12,3%</span>
+			</div>
+			<div class="card-4">
+				<h2>Faturamento</h2>
+				<h1>R$ 148.750,00</h1>
+				<span class="positivo">+ 10,5%</span>
+			</div>
+		</div>
+
+		<div class="graficos">
+			<img src="img/faturamento_R$.png" alt="faturamento1">
+			<img src="img/faturamento_categoria.png" alt="faturamento2">
+		</div>
+	</main>
+
+</body>
+
+</html>

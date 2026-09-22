@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+ 	background-color: #000000;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tela-inicial{
+	width: 100%;
+    height: 100vh;
+	
+    display: flex;
+}
+
+.direita{
+    width: 60%;
+    background-color: #052F89;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.esquerda{
+	width: 40%;
+	background-color: #ffffff;
+	
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding-left: 30px;
+}
+
+.logo{
+	width: 400px;
+	height: 200px;
+}
+
+.logo img{
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.esquerda h2{
+    width: 450px;
+    margin-top: 5vh;
+    color: #2563EB;
+    
+    font-size: 30px;
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+}
+
+.checks img{
+	width: 28px;
+	height: 28px;
+}
+
+.checks {
+    margin-top: 25px;
+	display: grid;
+    grid-template-columns: auto 1fr;
+	align-items: center;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.checks h3 {
+    color: #2563EB;
+    margin-bottom: 10px;
+    
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.direita h1 {
+	width: 400px;
+	margin-bottom: 5vh;
+	margin-top: 20vh;
+	color: #ffffff;
+	
+	font-size: 30px;
+	text-align: center;
+	font-family: 'Inter', sans-serif;
+	font-weight: bold;
+}
+
+.direita h4 {
+	color: #ffffff;
+	margin-bottom: 5vh;
+	
+	font-size: 16px;
+	font-family: 'Inter', sans-serif;
+}
+
+.direita form {
+	margin-bottom: 10px;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+	row-gap: 5px;
+}
+
+.direita form label {
+	color: #ffffff;
+	font-size: 12px;
+	font-family: 'Inter', sans-serif;
+}
+
+.direita form input {
+	width: 200px;
+	height: 40px;
+	border: 2px solid #ffffff;
+	border-radius: 15px;
+}
+
+.direita form button {
+	width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    border-style: none;
+	
+	background-color: #ffffff;
+	color: #2563EB;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.direita h3 {
+	color: #ffffff;
+	margin-bottom: 10px;
+	
+	font-size: 14px;
+	font-family: 'Inter', sans-serif;
+}
