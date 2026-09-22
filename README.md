@@ -90,3 +90,5 @@ Não há dependências de build, framework ou backend — é um projeto estátic
 
 Basta abrir `index.html` diretamente no navegador. A navegação entre as páginas funciona por links relativos (`principal.html`, `produtos.html` etc.).
 
+
+Feito por José Carlos 🚀
